@@ -1,0 +1,20 @@
+6.6.1 필드 선언
+ex)
+String company ="현대자동차";
+int maxSpeed =300;
+boolean engineStart;
+
+6.6.2 필드 사용
+ex)
+int speed;   //필드
+
+Car(){    //생성자
+speed =0; }
+
+void method(...){  //메소드
+speed =10;
+}
+
+void method(){
+Car myCar = new Car();  //Car 객체 생성
+myCar.speed =60;
